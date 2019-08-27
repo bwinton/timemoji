@@ -3,6 +3,14 @@ name = "timemoji"
 version = "0.1.0"
 authors = ["Blake Winton <bwinton@latte.ca>"]
 edition = "2018"
+license = "MPL-2.0"
+
+description = "Some time-based emojis for your prompt. Based on the moonmoji and clockmoji npm projects"
+homepage = "https://github.com/bwinton/timemoji#timemoji"
+repository = "https://github.com/bwinton/timemoji"
+keywords = ["emoji", "time", "prompt", "moonmoji", "clockmoji"]
+categories = ["command-line-utilities"]
+maintenance = { status = "passively-maintained" }
 
 [dependencies]
 chrono = "0.4.7"
@@ -19,4 +27,3 @@ path = "src/clockmoji.rs"
 [[bin]]
 name = "timemoji"
 path = "src/main.rs"
-
