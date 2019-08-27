@@ -1,0 +1,22 @@
+[package]
+name = "timemoji"
+version = "0.1.0"
+authors = ["Blake Winton <bwinton@latte.ca>"]
+edition = "2018"
+
+[dependencies]
+chrono = "0.4.7"
+rand = "0.7.0"
+
+[[bin]]
+name = "moonmoji"
+path = "src/moonmoji.rs"
+
+[[bin]]
+name = "clockmoji"
+path = "src/clockmoji.rs"
+
+[[bin]]
+name = "timemoji"
+path = "src/main.rs"
+
