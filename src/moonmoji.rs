@@ -2,6 +2,7 @@ use std::f64::consts::PI;
 use std::ops::{Add, Sub};
 
 use chrono::{DateTime, Duration, Utc};
+#[cfg(test)]
 use chrono::offset::TimeZone;
 use rand::random;
 
